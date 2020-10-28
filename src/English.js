@@ -1,104 +1,110 @@
-import { TouchableOpacity } from 'react-native-gesture-handler';
-import * as React from 'react';
-import { Image, Button, View, Text, StyleSheet, Alert} from 'react-native';
+import React, { Component, useState } from 'react';
+import { Button, View, Text, TouchableOpacity, Image, StyleSheet, StatusBar, Alert } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
+import { FlatList } from 'react-native-gesture-handler';
+import { EnglishLetters } from './data';
+import { Images } from './images/images';
+import EnglishS from './EnglishS';
 
-const data = require('./models/data.js');
 
-const Stack = createStackNavigator();
+const EnglishScreen = (navigation) => {
+    const [letterID, SetLetterID] = useState(1);
 
-function App() {
-  return (
-      <Stack.Navigator   screenOptions={{headerShown: false}}>
-        <Stack.Screen name="AScreen" component={AScreen} />
-        <Stack.Screen name="AppleScreen"  component={AppleScreen} />
-        <Stack.Screen name="AntScreen"  component={AntScreen} />
-        <Stack.Screen name="AeroplaneScreen"  component={AeroplaneScreen} />
-      </Stack.Navigator>
-  );
-}
-
-function AScreen({navigation})
-{
-json_function = () => {
-    Alert.alert(
-        'Json Text',
-        json_fragment
-    );
-}
-    
     return (
-        <View style={{ flex: 1,justifyContent:"center",alignItems:"center"}}>
-            <View style={{marginLeft:250, marginTop:70}}>
-                    <TouchableOpacity onPress={() => navigation.navigate('Bscreen')}>
-                        <Image style={{height: 100, width : 120}} source={require('./images/Next.jpeg')}/>
-                    </TouchableOpacity>
-            </View>
-            <Text style={{fontSize:350, color:"red",fontWeight:"bold" }}>A</Text>
-            <View style={{flexDirection:"row"}}>
-                <View style={{marginRight:20,marginBottom:100}}>
-                    <TouchableOpacity onPress={() => navigation.navigate('AppleScreen')}>
-                        <Image style={{height: 75, width : 75}} source={require('./images/Apple.jpeg')}/>
-                    </TouchableOpacity>
-                </View>
+        
+        <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+            {/* <Text>{letterID}</Text> */}
+            <FlatList
 
-                <View>
-                    <TouchableOpacity onPress={() => navigation.navigate('AntScreen')}>
-                    <Image style={{height: 75, width : 105}} source={require('./images/Ant.jpeg')}/>
-                    </TouchableOpacity>
-                </View>
+                keyExtractor={item => item.id}
+                // data={EnglishLetters.filter(d => d.id == this.state.letterID)}
+                data={EnglishLetters.filter(d => d.id == letterID)}
+                renderItem={({ item }) => {
+                    const img1 = Images[item.img1url]
+                    const img2 = Images[item.img2url]
+                    const img3 = Images[item.img3url]
+                    return (
 
-                <View style={{marginLeft:20}}>
-                    <TouchableOpacity onPress={() => navigation.navigate('AeroplaneScreen')}>
-                    <Image style={{height: 75, width : 120}} source={require('./images/Aeroplane.jpeg')}/>
-                    </TouchableOpacity>
-                </View>
-            </View>
+                        <View>
+
+                            <View style={{ flexDirection: "row", marginTop:10 }}>
+                                <View>
+                                    <TouchableOpacity onPress={() => {
+                                        SetLetterID(letterID - 1)
+
+                                        console.log({ letterID })
+                                    }}>
+                                        <Image style={{ height: 95, width: 105 }} source={require("./images/English/arrowback.jpeg")} />
+                                    </TouchableOpacity>
+                                </View>
+                                <View style={{marginLeft:150}}>
+                                    <TouchableOpacity onPress={() => {
+                                        SetLetterID(letterID + 1)
+
+                                        console.log({ letterID })
+                                    }}>
+                                        <Image style={{ height: 95, width: 105 }} source={require("./images/English/arrow.jpeg")} />
+                                    </TouchableOpacity>
+                                </View>
+
+                            </View>
+                            <Text style={{ fontSize: 350, marginLeft: 50, color: "red", fontWeight: "bold" }}>
+                                {item.name}
+                            </Text>
+                            <View style={{ flexDirection: "row" }}>
+                                <View style={{ marginRight: 20, marginBottom: 100 }}>
+
+                                    <TouchableOpacity onPress={() => this.navigation.navigate('EnglishS')}>
+                                        <Image style={{ height: 90, width: 100 }} source={img1} />
+                                    </TouchableOpacity>
+                                </View>
+
+                                <View>
+                                    <TouchableOpacity onPress={() => this.props.navigation.navigate('EnglishS')}>
+                                        <Image style={{ height: 90, width: 100, borderRadius: 4 }} source={img2} />
+                                    </TouchableOpacity>
+                                </View>
+
+                                <View style={{ marginLeft: 20 }}>
+                                    <TouchableOpacity onPress={() => this.props.navigation.navigate('Aeroplane')}>
+                                        <Image style={{ height: 90, width: 100 }} source={img3} />
+                                    </TouchableOpacity>
+                                </View>
+                            </View>
+                        </View>
+                    );
+                }
+                }
+            />
 
         </View>
-        
     );
-}
+};
 
 
-function AppleScreen({navigation})
+function Homescreen({navigation})
 {
-   
-    return (
-        <View style={{ flex: 1,justifyContent:"center",alignItems:"center"}}>
-            
-            <Image style={{height: 250, width : 250}} source={require('./images/Apple.jpeg')}/>
-            <Text style={{fontSize:72, fontWeight:"bold", color:"red"}}>Apple</Text>
-        </View>
-        
-    );
+  let data = {name:'subhani', email:'subhani.prince@gmail.com', address:'Subhani nagar'}
+  return(
+  <View>
+    <Text style={{fontSize:50}}>Hello world!!</Text>
+    <Button title="Go to details" onPress={()=>navigation.push('Details',data)}/>
+  </View>
+  )
 }
 
-function AntScreen({navigation})
+function Detailscreen({route})
 {
-   
-    return (
-        <View style={{ flex: 1,justifyContent:"center",alignItems:"center"}}>
-            
-            <Image style={{height: 250, width : 400}} source={require('./images/Ant.jpeg')}/>
-            <Text style={{fontSize:72, fontWeight:"bold", color:"red"}}>Ant</Text>
-        </View>
-        
-    );
+  console.warn(route.params)
+  let data = route.params
+  return(
+  <View>
+    <Text style={{fontSize:30}}>{data.name}</Text>
+    <Text style={{fontSize:30}}>{data.email}</Text>
+    <Text style={{fontSize:30}}>{data.address}</Text>
+  </View>
+  )
 }
 
-function AeroplaneScreen({navigation})
-{
-   
-    return (
-        <View style={{ flex: 1,justifyContent:"center",alignItems:"center"}}>
-            
-            <Image style={{height: 250, width : 400}} source={require('./images/Aeroplane.jpeg')}/>
-            <Text style={{fontSize:72, fontWeight:"bold", color:"red"}}>Aeroplane</Text>
-        </View>
-        
-    );
-}
-
-export default App;
+export default EnglishScreen;

@@ -1,0 +1,837 @@
+{
+    "EnglishLetters": [
+        {   "id":1, 
+            "name":"A", 
+            "img1name":"Apple", 
+            "img1url":"AppleUrl", 
+            "img2name":"Ant", 
+            "img2url":"AntUrl", 
+            "img3name":"Apple", 
+            "img3url":"AeroplaneUrl"
+        },
+        {   "id":2, 
+            "name":"B", 
+            "img1name":"Ball", 
+            "img1url":"BallUrl", 
+            "img2name":"Bat", 
+            "img2url":"BatUrl", 
+            "img3name":"Banana", 
+            "img3url":"BananaUrl"
+        },
+        {   "id":3, 
+            "name":"C", 
+            "img1name":"Cat", 
+            "img1url":"CatUrl", 
+            "img2name":"Chair", 
+            "img2url":"ChairUrl", 
+            "img3name":"Carrot", 
+            "img3url":"CarrotUrl"
+        },
+        {   "id":4, 
+            "name":"D", 
+            "img1name":"Dog", 
+            "img1url":"DogUrl", 
+            "img2name":"Door", 
+            "img2url":"DoorUrl", 
+            "img3name":"Doll", 
+            "img3url":"DollUrl"
+        },
+        {   "id":5, 
+            "name":"E", 
+            "img1name":"Eagle", 
+            "img1url":"EagleUrl", 
+            "img2name":"Egg", 
+            "img2url":"EggUrl", 
+            "img3name":"Elephant", 
+            "img3url":"ElephantUrl"
+        },
+        {   "id":6, 
+            "name":"F", 
+            "img1name":"Fan", 
+            "img1url":"FanUrl", 
+            "img2name":"Fish", 
+            "img2url":"FishUrl", 
+            "img3name":"Fox", 
+            "img3url":"FoxUrl"
+        },
+        {   "id":7, 
+            "name":"G", 
+            "img1name":"Glass", 
+            "img1url":"GlassUrl", 
+            "img2name":"Grapes", 
+            "img2url":"GrapesUrl", 
+            "img3name":"Gun", 
+            "img3url":"GunUrl"
+        },
+        {   "id":8, 
+            "name":"H", 
+            "img1name":"Hammer", 
+            "img1url":"HammerUrl", 
+            "img2name":"Hat", 
+            "img2url":"HatUrl", 
+            "img3name":"House", 
+            "img3url":"HouseUrl"
+        },
+        {   "id":9, 
+            "name":"I", 
+            "img1name":"Icecream", 
+            "img1url":"IcecreamUrl", 
+            "img2name":"Igloo", 
+            "img2url":"IglooUrl", 
+            "img3name":"Ink", 
+            "img3url":"InkUrl"
+        },
+        {   "id":10, 
+            "name":"J", 
+            "img1name":"Jar", 
+            "img1url":"JarUrl", 
+            "img2name":"Jeep", 
+            "img2url":"JeepUrl", 
+            "img3name":"Juice", 
+            "img3url":"JuiceUrl"
+        },
+        {   "id":11, 
+            "name":"K", 
+            "img1name":"Kangaroo", 
+            "img1url":"KangarooUrl", 
+            "img2name":"Kite", 
+            "img2url":"KiteUrl", 
+            "img3name":"Koala", 
+            "img3url":"KoalaUrl"
+        },
+        {   "id":12, 
+            "name":"L", 
+            "img1name":"Ladder", 
+            "img1url":"LadderUrl", 
+            "img2name":"Lock", 
+            "img2url":"LockUrl", 
+            "img3name":"Log", 
+            "img3url":"LogUrl"
+        },
+        {   "id":13, 
+            "name":"M", 
+            "img1name":"Mango", 
+            "img1url":"MangoUrl", 
+            "img2name":"Monkey", 
+            "img2url":"MonkeyUrl", 
+            "img3name":"Mouse", 
+            "img3url":"MouseUrl"
+        },
+        {   "id":14, 
+            "name":"N", 
+            "img1name":"Net", 
+            "img1url":"NetUrl", 
+            "img2name":"Ninja", 
+            "img2url":"NinjaUrl", 
+            "img3name":"Nut", 
+            "img3url":"NutUrl"
+        },
+        {   "id":15, 
+            "name":"O", 
+            "img1name":"Octapus", 
+            "img1url":"OctapusUrl", 
+            "img2name":"Orange", 
+            "img2url":"OrangeUrl", 
+            "img3name":"Ox", 
+            "img3url":"OxUrl"
+        },
+        {   "id":16, 
+            "name":"P", 
+            "img1name":"PenUrl", 
+            "img1url":"PenUrl", 
+            "img2name":"PencilUrl", 
+            "img2url":"PencilUrl", 
+            "img3name":"PenguinUrl", 
+            "img3url":"PenguinUrl"
+        },
+        {   "id":17, 
+            "name":"Q", 
+            "img1name":"Quartz", 
+            "img1url":"QuartzUrl", 
+            "img2name":"Quince", 
+            "img2url":"Quinceurl", 
+            "img3name":"QuiverUl", 
+            "img3url":"QuiverUrl"
+        },
+        {   "id":18, 
+            "name":"R", 
+            "img1name":"RhinoUrl", 
+            "img1url":"RhinoUrl", 
+            "img2name":"RingUrl", 
+            "img2url":"RingUrl", 
+            "img3name":"RoseUrl", 
+            "img3url":"RoseUrl"
+        },
+        {   "id":19, 
+            "name":"S", 
+            "img1name":"Snake", 
+            "img1url":"SnakeUrl", 
+            "img2name":"Squirrel", 
+            "img2url":"SquirrelUrl", 
+            "img3name":"Star", 
+            "img3url":"StarUrl"
+        },
+        {   "id":20, 
+            "name":"T", 
+            "img1name":"Tiger", 
+            "img1url":"TigerUrl", 
+            "img2name":"Monkey", 
+            "img2url":"MonkeyUrl", 
+            "img3name":"Turtle", 
+            "img3url":"TurtleUrl"
+        },
+        {   "id":21, 
+            "name":"U", 
+            "img1name":"Utensls", 
+            "img1url":"UtenslsUrl", 
+            "img2name":"Unicycle", 
+            "img2url":"UnicycleUrl", 
+            "img3name":"UmbrellaUrl", 
+            "img3url":"UmbrellaUrl"
+        },
+        {   "id":22, 
+            "name":"V", 
+            "img1name":"Violin", 
+            "img1url":"ViolinUrl", 
+            "img2name":"Vase", 
+            "img2url":"VaseUrl", 
+            "img3name":"Van", 
+            "img3url":"VanUrl"
+        },
+        {   "id":23, 
+            "name":"W", 
+            "img1name":"Window", 
+            "img1url":"WindowUrl", 
+            "img2name":"Watermelonurl", 
+            "img2url":"Watermelonurl", 
+            "img3name":"WagonUrl", 
+            "img3url":"WagonUrl"
+        },
+        {   "id":24, 
+            "name":"X", 
+            "img1name":"XanthanU", 
+            "img1url":"XanthanUrl", 
+            "img2name":"Xylophone", 
+            "img2url":"XylophoneUrl", 
+            "img3name":"Xenopus", 
+            "img3url":"XenopusUrl"
+        },
+        {   "id":25, 
+            "name":"Y", 
+            "img1name":"Yak", 
+            "img1url":"YakUrl", 
+            "img2name":"Yarn", 
+            "img2url":"YarnUrl", 
+            "img3name":"YoghurtUrl", 
+            "img3url":"YoghurtUrl"
+        },
+        {   "id":26, 
+            "name":"Z", 
+            "img1name":"Zucchini", 
+            "img1url":"ZucchiniUrl", 
+            "img2name":"Zipper", 
+            "img2url":"ZipperUrl", 
+            "img3name":"Zebra", 
+            "img3url":"ZebraUrl"
+        }    
+    ],
+    "HindiLetters" : [
+        {   "id":1, 
+            "name":"अ", 
+            "img1name":"अनार ", 
+            "img1url":"promeUrl"
+        },
+        {   "id":2, 
+            "name":"आ", 
+            "img1name":"आम", 
+            "img1url":"mangoUrl"
+        },
+        {   "id":3, 
+            "name":"इ", 
+            "img1name":"इमली", 
+            "img1url":"tamrindUrl"
+        },
+        {   "id":4, 
+            "name":"ई", 
+            "img1name":"ईख", 
+            "img1url":"sugarcaneUrl"
+        },
+        {   "id":5, 
+            "name":"उ", 
+            "img1name":"उल्लू", 
+            "img1url":"owlUrl"
+        },
+        {   "id":6, 
+            "name":"ऊ", 
+            "img1name":"ऊन", 
+            "img1url":"woolUrl"
+        },
+        {   "id":7, 
+            "name":"ऋ", 
+            "img1name":"ऋषि", 
+            "img1url":"rushieUrl"
+        },
+        {   "id":8, 
+            "name":"ए", 
+            "img1name":"एक", 
+            "img1url":"oneUrl"
+        },
+        {   "id":9, 
+            "name":"ऐ", 
+            "img1name":"ऐनक", 
+            "img1url":"spedsUrl"
+        },
+        {   "id":10, 
+            "name":"ओ", 
+            "img1name":"ओखली", 
+            "img1url":"rokhliUrl"
+        },
+        {   "id":11, 
+            "name":"औ", 
+            "img1name":"औषध", 
+            "img1url":"medUrl"
+        },
+        {   "id":12, 
+            "name":"अं", 
+            "img1name":"अंगूर", 
+            "img1url":"grapesUrl"
+        },
+        {   "id":13, 
+            "name":"अ:", 
+            "img1name":"अहा", 
+            "img1url":"Url"
+        },
+        {   "id":14, 
+            "name":"क", 
+            "img1name":"कमल", 
+            "img1url":"lotusUrl"
+        },
+        {   "id":15, 
+            "name":"ख", 
+            "img1name":"खरबूजा", 
+            "img1url":"muskmelonUrl"
+        },
+        {   "id":16, 
+            "name":"ग", 
+            "img1name":"गधा", 
+            "img1url":"donkeyUrl"
+        },
+        {   "id":17, 
+            "name":"घ", 
+            "img1name":"घर", 
+            "img1url":"houseUrl"
+        },
+        {   "id":18, 
+            "name":"ङ", 
+            "img1name":"ङ", 
+            "img1url":"Url"
+        },
+        {   "id":19, 
+            "name":"च", 
+            "img1name":"चम्मच", 
+            "img1url":"spoonUrl"
+        },
+        {   "id":20, 
+            "name":"छ", 
+            "img1name":"छतरी", 
+            "img1url":"umbrellaUrl"
+        },
+        {   "id":21, 
+            "name":"ज", 
+            "img1name":"जलयान", 
+            "img1url":"shipUrl"
+        },
+        {   "id":22, 
+            "name":"झ", 
+            "img1name":"झरना", 
+            "img1url":"waterfallUrl"
+        },
+        {   "id":23, 
+            "name":"ञ", 
+            "img1name":"मंच", 
+            "img1url":"stageUrl"
+        },
+        {   "id":24, 
+            "name":"ट", 
+            "img1name":"टमाटर", 
+            "img1url":"tomatoUrl"
+        },
+        {   "id":25, 
+            "name":"ठ", 
+            "img1name":"ठहरो", 
+            "img1url":"stopUrl"
+        },
+        {   "id":26, 
+            "name":"ड", 
+            "img1name":"डमरु", 
+            "img1url":"damaruUrl"
+        },
+        {   "id":27, 
+            "name":"ढ", 
+            "img1name":"ढक्कन", 
+            "img1url":"capUrl"
+        },
+        {   "id":28, 
+            "name":"ण", 
+            "img1name":"झण्डा", 
+            "img1url":"flagUrl"
+        },
+     
+        {   "id":29, 
+            "name":"त", 
+            "img1name":"तरबूज", 
+            "img1url":"watermelonUrl"
+        },
+        {   "id":30, 
+            "name":"थ", 
+            "img1name":"थरमस", 
+            "img1url":"themusUrl"
+        },
+        {   "id":31, 
+            "name":"द", 
+            "img1name":"दवात", 
+            "img1url":"inkUrl"
+        },
+        {   "id":32, 
+            "name":"ध", 
+            "img1name":"धन", 
+            "img1url":"moneyUrl"
+        },
+        {   "id":33, 
+            "name":"न", 
+            "img1name":"नथ", 
+            "img1url":"noseringUrl"
+        },
+        {   "id":34, 
+            "name":"प", 
+            "img1name":"पतंग", 
+            "img1url":"kiteUrl"
+        },
+        {   "id":35, 
+            "name":"फ", 
+            "img1name":"फल", 
+            "img1url":"fruitsUrl"
+        },
+        {   "id":36, 
+            "name":"ब", 
+            "img1name":"बतक", 
+            "img1url":"duckUrl"
+        },
+        {   "id":37, 
+            "name":"भ", 
+            "img1name":"भालू", 
+            "img1url":"bearUrl"
+        },
+        {   "id":38, 
+            "name":"म", 
+            "img1name":"मछली", 
+            "img1url":"fishUrl"
+        },
+        {   "id":39, 
+            "name":"य", 
+            "img1name":"यान", 
+            "img1url":"aeroplaneUrl"
+        },
+        {   "id":40, 
+            "name":"र", 
+            "img1name":"राजा", 
+            "img1url":"kingUrl"
+        },
+        {   "id":41, 
+            "name":"ल", 
+            "img1name":"लड्डू", 
+            "img1url":"ladduUrl"
+        },
+        {   "id":42, 
+            "name":"व", 
+            "img1name":"वक", 
+            "img1url":"craneUrl"
+        },
+        {   "id":43, 
+            "name":"श", 
+            "img1name":"शरबत", 
+            "img1url":"juiceUrl"
+        },
+        {   "id":44, 
+            "name":"ष", 
+            "img1name":"षट्कोन", 
+            "img1url":"hexagonUrl"
+        },
+        {   "id":45, 
+            "name":"स", 
+            "img1name":"सतरंग", 
+            "img1url":"rainbowUrl"
+        },
+        {   "id":46, 
+            "name":"ह", 
+            "img1name":"हाथ", 
+            "img1url":"handUrl"
+        },
+        {   "id":47, 
+            "name":"क्ष", 
+            "img1name":"क्षत्रिय", 
+            "img1url":"soldierUrl"
+        },
+        {   "id":48, 
+            "name":"त्र", 
+            "img1name":"त्रिशूल", 
+            "img1url":"trisulUrl"
+        },
+        {   "id":49, 
+            "name":"ज्ञ", 
+            "img1name":"ज्ञानी", 
+            "img1url":"trisulUrl"
+        }
+        
+     ],
+
+    
+    
+    "TeluguLetters": [
+        {   "id":1, 
+            "name":"అ", 
+            "img1name":"అల", 
+            "img1url":"waterUrl"
+            
+        },
+
+        {   "id":2, 
+            "name":"ఆ", 
+            "img1name":"ఆకు", 
+            "img1url":"leafeUrl"
+            
+        },
+
+        {   "id":3, 
+            "name":"ఇ", 
+            "img1name":"ఇల్లు", 
+            "img1url":"houseUrl"
+            
+        },
+
+        {   "id":4, 
+            "name":"ఈ", 
+            "img1name":"ఈక", 
+            "img1url":"featherUrl"
+            
+        },
+
+        {   "id":5, 
+            "name":"ఉ", 
+            "img1name":"ఉడుత ", 
+            "img1url":"squirrelUrl"
+            
+        },
+
+        {   "id":6, 
+            "name":"ఊ", 
+            "img1name":"ఊయల ", 
+            "img1url":"swingUrl"
+            
+        },
+
+        {   "id":7, 
+            "name":"ఋ", 
+            "img1name":"ఋషి ", 
+            "img1url":"rushieUrl"
+            
+        },
+
+        {   "id":8, 
+            "name":"ౠ", 
+            "img1name":"ౠ", 
+            "img1url":"ruUrl"
+            
+        },
+
+        {   "id":9, 
+            "name":"ఎ", 
+            "img1name":"ఎలుక", 
+            "img1url":"mouseUrl"
+            
+        },
+
+        {   "id":10, 
+            "name":"ఏ", 
+            "img1name":"ఏనుగు ", 
+            "img1url":"elephantUrlT"
+            
+        },
+
+        {   "id":11, 
+            "name":"ఐ", 
+            "img1name":"ఐదు ", 
+            "img1url":"fiveUrl"
+            
+        },   
+
+        {   "id":12, 
+            "name":"ఒ", 
+            "img1name":"ఒoటే", 
+            "img1url":"camelUrl"
+            
+        },    
+
+        {   "id":13, 
+            "name":"ఓ", 
+            "img1name":"ఓడ", 
+            "img1url":"shipUrl"
+            
+        },   
+
+        {   "id":14, 
+            "name":"ఔ", 
+            "img1name":"ఔషధo ", 
+            "img1url":"medUrl"
+            
+        }, 
+
+        {   "id":15, 
+            "name":"అం", 
+            "img1name":"అంగడి  ", 
+            "img1url":"marketUrl"
+            
+        } ,
+
+        {   "id":16, 
+            "name":"అః", 
+            "img1name":"అః   ", 
+            "img1url":"ahaUrl"
+            
+        },  
+
+        {   "id":17, 
+            "name":"క", 
+            "img1name":"కలము", 
+            "img1url":"penUrl"
+            
+        },  
+
+        {   "id":18, 
+            "name":"ఖ", 
+            "img1name":"ఖడ్గము ", 
+            "img1url":"swordUrl"
+            
+        } , 
+
+        {   "id":19, 
+            "name":"గ", 
+            "img1name":"గద", 
+            "img1url":"gadaUrl"
+            
+        },  
+
+        {   "id":20, 
+            "name":"ఘ", 
+            "img1name":"ఘటము", 
+            "img1url":"potUrl"
+            
+        },  
+
+        {   "id":21, 
+            "name":"ఙ ", 
+            "img1name":"ఙ", 
+            "img1url":"ahaUrl"
+            
+        },
+        
+        {   "id":22, 
+            "name":"చ", 
+            "img1name":"చక్రము ", 
+            "img1url":"wheelUrl"
+            
+        },
+
+        {   "id":23, 
+            "name":"ఛ", 
+            "img1name":"ఛత్రము", 
+            "img1url":"umbUrl"
+            
+        },
+
+        {   "id":24, 
+            "name":"జ", 
+            "img1name":"జల్లాడ ", 
+            "img1url":"siftUrl"
+            
+        },
+
+
+        {   "id":25, 
+            "name":"ఝ", 
+            "img1name":"ఝషము  ", 
+            "img1url":"fishUrl"
+            
+        },
+
+        {   "id":26, 
+            "name":"ఞ ", 
+            "img1name":"ఞ", 
+            "img1url":"eaUrl"
+            
+        },
+
+       {   "id":27, 
+             "name":"ట ", 
+            "img1name":"టమాట ", 
+            "img1url":"tomatoUrl"
+            
+        },
+
+        {   "id":28, 
+            "name":"ఠ ", 
+           "img1name":"కoఠము  ", 
+           "img1url":"neckUrl"
+           
+       },
+       
+       {   "id":29, 
+        "name":"డ ", 
+       "img1name":"డమరు", 
+       "img1url":"damaruUrl"
+       },
+
+       {   "id":30, 
+        "name":"ఢ ", 
+       "img1name":"ఢoకా", 
+       "img1url":"drumsUrl"
+       },
+
+       {   "id":31, 
+        "name":"ణ  ", 
+       "img1name":"ణ ", 
+       "img1url":"naUrl"
+       },
+
+       {   "id":32, 
+        "name":"త", 
+       "img1name":"తబల", 
+       "img1url":"tabalaUrl"
+       },
+       
+       {   "id":33, 
+        "name":"థ", 
+       "img1name":"రథము", 
+       "img1url":"charUrl"
+       },
+       
+       {   "id":34, 
+        "name":"ద", 
+       "img1name":"దoడ", 
+       "img1url":"flowerUrl"
+       },
+
+       {   "id":35, 
+        "name":"ధ", 
+       "img1name":"ధనస్సు  ", 
+       "img1url":"sagUrl"
+       },
+
+       {   "id":36, 
+        "name":"న", 
+       "img1name":"నగ", 
+       "img1url":"goldUrl"
+       },
+
+       {   "id":37, 
+        "name":"ప", 
+       "img1name":"పడవ", 
+       "img1url":"boatUrl"
+       },
+
+       {   "id":38, 
+        "name":"ఫ", 
+       "img1name":"ఫలము ", 
+       "img1url":"promeUrl"
+       },
+
+       {   "id":39, 
+        "name":"బ", 
+       "img1name":"బoతి", 
+       "img1url":"ballUrl"
+       },
+
+       {   "id":40, 
+        "name":"భ", 
+       "img1name":"భల్లూకము", 
+       "img1url":"bearUrl"
+       },
+
+       {   "id":41, 
+        "name":"మ", 
+       "img1name":"మoచము", 
+       "img1url":"bedUrl"
+       },
+
+       {   "id":42, 
+        "name":"య", 
+       "img1name":"యజ్ఞము ", 
+       "img1url":"yajnaUrl"
+       },
+
+       {   "id":43, 
+        "name":"ర", 
+       "img1name":"రవి", 
+       "img1url":"sunUrl"
+       },
+
+       {   "id":44, 
+        "name":"ల", 
+       "img1name":"లత", 
+       "img1url":"treeUrl"
+       },
+
+       {   "id":45, 
+        "name":"వ", 
+       "img1name":"వల ", 
+       "img1url":"netUrl"
+       },
+
+       {   "id":46, 
+        "name":"శ", 
+       "img1name":"శoఖము", 
+       "img1url":"shellUrl"
+       },
+
+       {   "id":47, 
+        "name":"ష", 
+       "img1name":"షరాయి", 
+       "img1url":"shortUrl"
+       },
+
+       {   "id":48, 
+        "name":"స", 
+       "img1name":"సబ్బు ", 
+       "img1url":"soapUrl"
+       },
+
+       {   "id":49, 
+        "name":"హ", 
+       "img1name":"హoస", 
+       "img1url":"swanUrl"
+       },
+
+       {   "id":50, 
+        "name":"ళ", 
+       "img1name":"తాళము ", 
+       "img1url":"lockUrl"
+       },
+
+       {   "id":51, 
+        "name":"క్ష", 
+       "img1name":"క్షత్రియుడు  ", 
+       "img1url":"soldierUrl"
+       },
+
+       {   "id":52, 
+        "name":"ఱ", 
+       "img1name":"ఱoపము   ", 
+       "img1url":"HandsawUrl"
+       }
+
+
+    ]
+    
+}
+
+    

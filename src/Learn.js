@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Button, View, Text, TouchableOpacity, Image } from 'react-native';
 
-
 class task2screen extends Component {
     
     render() {

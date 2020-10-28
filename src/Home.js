@@ -20,25 +20,33 @@ class task2screen extends Component {
                 </View>
 
                 <View style={{flexDirection: 'row', marginTop:50}}>
-                    <TouchableOpacity onPress={() => this.props.navigation.navigate('English')}>
-                        <View style={{backgroundColor:"#4da6ff",paddingVertical : 12, paddingHorizontal : 12,
+                    <TouchableOpacity onPress={() => this.props.navigation.navigate('Hindi')}>
+                        <View style={{backgroundColor:"#FF9F33",paddingVertical : 12, paddingHorizontal : 12,
                         borderRadius : 25, width : 300, marginRight:10, marginLeft:10}}>
-                            <Text style={{textAlign:"center", color:"white", fontSize:30}}>Numbers</Text>
+                            <Text style={{textAlign:"center", color:"white", fontSize:30}}>Hindi</Text>
                         </View>
                     </TouchableOpacity>
                 </View>
 
                 <View style={{flexDirection: 'row', marginTop:50}}>
-                    <TouchableOpacity onPress={() => this.props.navigation.navigate('Learn')}>
-                        <View style={{backgroundColor:"#33ff33",paddingVertical : 12, paddingHorizontal : 12,
+                    <TouchableOpacity onPress={() => this.props.navigation.navigate('Telugu')}>
+                        <View style={{backgroundColor:"#67AE54",paddingVertical : 12, paddingHorizontal : 12,
                         borderRadius : 25, width : 300, marginRight:10, marginLeft:10}}>
                             <Text style={{textAlign:"center", color:"white", fontSize:30}}>Telugu</Text>
                         </View>
                     </TouchableOpacity>
                 </View>
 
+                <View style={{flexDirection: 'row', marginTop:50}}>
+                    <TouchableOpacity onPress={() => this.props.navigation.navigate('Numbers')}>
+                        <View style={{backgroundColor:"#29A8CE",paddingVertical : 12, paddingHorizontal : 12,
+                        borderRadius : 25, width : 300, marginRight:10, marginLeft:10}}>
+                            <Text style={{textAlign:"center", color:"white", fontSize:30}}>Numbers</Text>
+                        </View>
+                    </TouchableOpacity>
+                </View>
+
             </View>
-            
         );
     }
 }
